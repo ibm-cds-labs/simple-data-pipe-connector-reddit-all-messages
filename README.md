@@ -1,5 +1,7 @@
 # Simple Data Pipe Connector for Reddit
 
+:no_entry_sign: This project is no longer maintained.
+
 [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for [Reddit Ask Me Anything](https://www.reddit.com/r/ama). This connector fetches top level comments or all comments and replies for a post, uses the [Watson Tone Analyzer API](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/tone-analyzer/api/v3/) to determine the sentiment and stores the results using the [Simple Data Pipe SDK](https://github.com/ibm-cds-labs/simple-data-pipe-sdk) in Cloudant. 
 
 The data property for the selected post and each comment is retrieved and stored in Cloudant (See [https://www.reddit.com/dev/api](https://www.reddit.com/dev/api) for more information).
